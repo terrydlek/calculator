@@ -31,12 +31,12 @@
 
 1. 이 저장소를 클론합니다:
     ```bash
-    git clone https://github.com/your-username/calculator.git
+    git clone https://github.com/terrydlek/newProject.git
     ```
 
 2. 클론한 디렉토리로 이동합니다:
     ```bash
-    cd calculator
+    cd newProject
     ```
 
 3. `index.html` 파일을 브라우저에서 엽니다.
