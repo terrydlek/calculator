@@ -70,3 +70,18 @@ input[type="submit"]:active {
     color: #333;
     text-align: center;
 }
+
+#save{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+}
+#outputs{
+    height: auto;
+    text-align: center;
+}
+.list{
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}

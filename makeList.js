@@ -17,9 +17,9 @@ const makeList = function(){
 
     let $li = document.createElement("li");
     lists.appendChild($li)
+    $li.className = "list";
 
     $li.textContent = result;
-
 }
 
 //이벤트 함수 매핑
