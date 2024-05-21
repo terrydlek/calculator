@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Calculator</title>
-    </head>
-
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
     <script defer src="app.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
 </head>
 
 <body>
@@ -23,8 +16,9 @@
         <label for="first"><span>첫 번째 숫자</span></label>
         <input type="text" id="second" class="question" />
         <label for="second"><span>두 번째 숫자</span></label>
-        <input type="text"><span>사칙 연산</span>
-        <input type="submit" value="계산" /><label></label>
+        <input type="text" id="operation" class="question" />
+        <label for="operation"><span>사칙연산</span></label>
+        <input type="submit" value="계산" />
     </form>
     <div id="output"></div>
 </body>
