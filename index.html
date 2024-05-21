@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script defer src="app.js"></script>
+    <script defer src="makeList.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form">
+        <input type="text" id="first" class="question" />
+        <label for="first"><span>첫 번째 숫자</span></label>
+        <input type="text" id="second" class="question" />
+        <label for="second"><span>두 번째 숫자</span></label>
+        <input type="text" id="operation" class="question" />
+        <label for="operation"><span>사칙연산</span></label>
+        <input type="submit" value="계산" />
+        <div id="output">사칙연산 결과</div>
+        <div id="outputs">
+            <button id="save">연산 저장</button>
+            <ol id="lists">
+
+            </ol>
+        </div>
+    </form>
+</body>
+
+</html>
